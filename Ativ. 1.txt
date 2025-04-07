@@ -1,0 +1,51 @@
+Primeira ativdade: Algoritmo "Cálculo Média Aluno"
+
+Var
+N1, N2, N3, M: Real
+Nome: Caractere
+Inicio
+Escreva ("Informe o nome do aluno: ")
+Leia (Nome)
+Escreva ("Informe a primeira nota do aluno: ")
+Leia (N1)
+Escreva ("Informe a segunda nota do aluno: ")
+Leia (N2)
+Escreva ("Informe a terceira nota do aluno: ")
+Leia (N3)
+M <- N1+N2+N3/3
+Escreva ("A média das notas ",N1 ,N2," e ",N3," é ",M)
+Fimalgoritmo
+
+Segunda atividade: Algoritmo "Troca de Valores"
+
+Var
+a,b,aux: INTEIRO
+Inicio
+Escreva ("informe o valor de a: ")
+Leia (a)
+Escreva ("informe o valor de b: ")
+Leia (b)
+aux <- a
+a <- b
+b <- aux
+escreva ("o valor de a é: ", a , "e o de b é: ", b)
+fimalgoritmo
+
+terceira atividade: Algoritmo "Calculo Salario"
+
+Var
+si, v1,v2,v3, sf: real
+Nome: caractere
+inicio
+escreva ("informe o nome do vendedor: ")
+Leia (nome)
+si <- (2000)
+escreva ("informe a primeira venda: ")
+Leia (v1)
+escreva ("informe a segunda venda: ")
+Leia (v2)
+escreva ("informe a terceira venda: ")
+Leia (v3)
+sf <- si+(V1*15/100))+(v2*15/100))+(v3*15/100)
+escreva ("o salario final do vendedor é ",sf)
+fimalgoritmo

@@ -1,0 +1,121 @@
+1. Algoritmo "CelsiusParaFahrenheit"
+Var
+C, F: Real
+Inicio
+Escreva("Digite a temperatura em Celsius: ")
+Leia(C)
+F <- (9 * C + 160) / 5
+Escreva("A temperatura em Fahrenheit é: ", F)
+FimAlgoritmo
+
+
+2. Algoritmo "DolarParaReal"
+
+Var
+
+    cotacao, quantidade, valorReal: Real
+
+Inicio
+
+    Escreva("Digite a cotação do dólar: ")
+
+    Leia(cotacao)
+
+    Escreva("Digite a quantidade de dólares: ")
+
+    Leia(quantidade)
+
+    valorReal <- cotacao * quantidade
+
+    Escreva("O valor em reais é: R$", valorReal)
+
+FimAlgoritmo
+
+3.Algoritmo "RendimentoPoupanca"
+
+Var
+
+    deposito, rendimento, valorTotal: Real
+
+Inicio
+
+    Escreva("Digite o valor depositado: ")
+
+    Leia(deposito)
+
+    rendimento <- deposito * 0.007 // 0.70%
+
+    valorTotal <- deposito + rendimento
+
+    Escreva("Valor após um mês: R$", valorTotal)
+
+FimAlgoritmo
+
+
+4.Algoritmo "ValorPrestacoes"
+
+Var
+
+    valorCompra, valorPrestacao: Real
+
+Inicio
+
+    Escreva("Digite o valor da compra: ")
+
+    Leia(valorCompra)
+
+    valorPrestacao <- valorCompra / 5
+
+    Escreva("Valor de cada prestação: R$", valorPrestacao)
+
+FimAlgoritmo
+
+
+5.Algoritmo "PrecoVenda"
+
+Var
+
+    precoCusto, percentual, acrescimo, precoFinal: Real
+
+Inicio
+
+    Escreva("Digite o preço de custo: ")
+
+    Leia(precoCusto)
+
+    Escreva("Digite o percentual de acréscimo: ")
+
+    Leia(percentual)
+
+    acrescimo <- precoCusto * (percentual / 100)
+
+    precoFinal <- precoCusto + acrescimo
+
+    Escreva("Preço de venda: R$", precoFinal)
+
+FimAlgoritmo
+
+
+6.Algoritmo "CustoCarroConsumidor"
+
+Var
+
+    custoFabrica, impostos, custoComImpostos, distribuidor, custoFinal: Real
+
+Inicio
+
+    Escreva("Digite o custo de fábrica do carro: ")
+
+    Leia(custoFabrica)
+
+    impostos <- custoFabrica * 0.45
+
+    custoComImpostos <- custoFabrica + impostos
+
+    distribuidor <- custoComImpostos * 0.28
+
+    custoFinal <- custoComImpostos + distribuidor
+
+    Escreva("Custo ao consumidor: R$", custoFinal)
+
+FimAlgoritmo
